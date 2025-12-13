@@ -6,7 +6,7 @@
 - lệnh kiểm tra nrf có kết nối được không
       if(!radio.begin()){
           serial.print("Lỗi!");
-          while(1);  
+          while(1); 
       }
 - khởi tạo phía phát và thu
     phía phát: radio.openWritingPipe(addr);
